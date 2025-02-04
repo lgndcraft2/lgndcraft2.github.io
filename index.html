@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="pic.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+    <h1 class="full-name" data-testid="fullName">Abdul-Raheem Akapo</h1>
+    <h2 class="job-title" data-testid="jobTitle">Front-End Developer</h2>
+        <p class="short-bio" data-testid="shortBio">
+        Hi, I'm Raheem! I'm a 19-year-old aspiring front-end developer with a passion for creating beautiful and functional web experiences. I started coding at 12 and have always been fascinated by technology. I love combining creativity and logic to solve problems.
+        </p>
+    <p class="current-location" data-testid="currentLocation">Lagos, Nigeria</p>
+    <p class="email-address" data-testid="emailAddress">
+      akapsyjr@gmail.com
+    </p>
+
+    <div class="social-links" data-testid="socialLinks">
+      <a href="https://www.linkedin.com/in/raheem-akapo-614b3b264/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/lgndcraft2" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://x.com/lgnd_craft" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+
+    <p class="current-time" data-testid="currentTimeUTC"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
